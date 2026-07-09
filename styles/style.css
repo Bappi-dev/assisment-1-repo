@@ -1,0 +1,27 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-title ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px; 
+}
+.nav-title ul li a {
+    text-decoration: none;
+}
+.btn button{
+    padding: 10px 10px;
+    background-color: rgb(41, 41, 238);
+    border: none;
+    border-radius: 10px;
+}
