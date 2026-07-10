@@ -9,6 +9,13 @@
     width: 100px;
 }
 
+/* commont */
+.meet {
+    max-width: 1300px;
+    max-height: 1088;
+    margin: 0 auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -75,4 +82,54 @@ header {
     cursor: pointer;
     font-weight: bold;
     font-size: 18px;
+}
+
+/* meet speakers */
+.meet-title {
+    margin-top: 70px;
+}
+
+.meet-title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    padding-bottom: 40px;
+}
+
+.meet-container {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    max-width: 642px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.meet-container .img img {
+    border-radius: 10px 10px 0 0;
+}
+
+.meet-container .caption {
+    display: grid;
+    padding: 10px;
+    gap: 5px;
+}
+
+.meet-container .caption .color {
+    color: blue;
+    font-size: 12px;
+}
+
+.meet-container .caption h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.meet-container .caption p {
+    color: gray;
+    font-size: 14px;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
 }
